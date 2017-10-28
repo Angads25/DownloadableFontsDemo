@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.github.angads25.downloadablefonts.XmlFontActivity">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/label_font_light"
+        android:textSize="16sp"
+        app:fontFamily="@font/open_sans_light" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/label_font_regular"
+        android:textSize="16sp"
+        app:fontFamily="@font/open_sans" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_semi_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/label_font_semibold"
+        android:textSize="16sp"
+        app:fontFamily="@font/open_sans_semibold" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/label_font_bold"
+        android:textSize="16sp"
+        app:fontFamily="@font/open_sans_bold" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_extra_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/label_font_extra_bold"
+        android:textSize="16sp"
+        app:fontFamily="@font/open_sans_extrabold" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_condensed_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/label_font_condensed_bold"
+        android:textSize="16sp"
+        app:fontFamily="@font/open_sans_condensed_bold" />
+</android.support.v7.widget.LinearLayoutCompat>

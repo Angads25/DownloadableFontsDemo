@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FontProviderDemo</string>
+    <string name="label_font_light">Open Sans Light</string>
+    <string name="label_font_regular">Open Sans Regular</string>
+    <string name="label_font_semibold">Open Sans SemiBold</string>
+    <string name="label_font_bold">Open Sans Bold</string>
+    <string name="label_font_extra_bold">Open Sans Extra Bold</string>
+    <string name="label_font_condensed_bold">Open Sans Condensed Bold</string>
+    <string name="label_xml">Using XML</string>
+    <string name="label_java">Using FontProvider</string>
+</resources>

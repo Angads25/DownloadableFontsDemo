@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    tools:context="com.github.angads25.downloadablefonts.MainActivity">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/action_xml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/label_xml"
+        android:textSize="16sp"
+        app:fontFamily="@font/acme_regular" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/action_java"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/label_java"
+        android:textSize="16sp"
+        app:fontFamily="@font/acme_regular" />
+</android.support.v7.widget.LinearLayoutCompat>
